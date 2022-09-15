@@ -1,5 +1,5 @@
-import dogs from "./data.js"
-import newDow from "./Dog.js"
+import dogs from "/data.js"
+import newDow from "/Dog.js"
 
 
 let numberArray = [0, 1, 2]
@@ -51,7 +51,7 @@ document.getElementById("dislike").addEventListener("click",function(){
     const rotated = document.getElementById("rotated-id")
     
     rotated.style.opacity = "1"
-    rotated.innerHTML = `<img src="./images/badge-nope.png"></img>`
+    rotated.innerHTML = `<img src="/images/badge-nope.png"></img>`
     setTimeout(()=>{
         otherDogs = getNewDog()
         render2()

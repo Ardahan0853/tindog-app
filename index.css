@@ -27,7 +27,7 @@ body{
 }
 
 .background-image{
-    background-image: url("./images/dog-teddy.jpg");
+    background-image: url("/images/dog-teddy.jpg");
     height: 70vh;
     width: 99%;
     border-radius: 2%;

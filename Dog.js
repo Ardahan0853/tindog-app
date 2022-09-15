@@ -13,7 +13,7 @@ class newDow {
 
             `<div class="background-image" id="image">
                 <div class="rotated" id="rotated-id">
-                    <img src="/images/badge-like.png"></img>
+                    <img src="./images/badge-like.png"></img>
                 </div>
                 <div class="d-flex-image">
                     <h1>${name}, ${age}</h1>

@@ -1,5 +1,5 @@
-import dogs from "/data.js"
-import newDow from "/Dog.js"
+import dogs from "./data.js"
+import newDow from "./Dog.js"
 
 
 let numberArray = [0, 1, 2]

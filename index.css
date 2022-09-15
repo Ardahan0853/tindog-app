@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background:linear-gradient(40deg , #FA695A 0%, #FFE7EF 70%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 700px;
+    margin: auto;
+    padding: 1em;
+    background-color: white;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.paw-div{
+    padding: 0 2em;
+    border-radius: 20%;
+    color: white;
+    background: linear-gradient(270deg, #FA695A 0%, #F83375 100%);
+}
+
+.background-image{
+    background-image: url("./images/dog-teddy.jpg");
+    height: 70vh;
+    width: 99%;
+    border-radius: 2%;
+    margin: 2em auto;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end ;
+    
+    
+}
+.d-flex-image{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 2em;
+    width: 100%;
+    height: 70%;
+}
+
+.rotated{
+    width: 100%;
+    min-width: 50%;
+    opacity: 0;
+    transition: 1s;
+}
+.rotated img{
+    transform: rotate(-40deg);
+    width: 30%;
+    min-width: 30%;
+   
+}
+
+
+.d-flex-image h1{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.d-flex-image h2{
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+    font-weight: 100;
+}
+
+.buttons-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    border: none;
+    padding: 2em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn-like:hover, .btn-like:active{
+    background-color: rgb(13, 54, 13);
+}
+.btn-dislike:hover, .btn-dislike:active{
+    background-color:#812343
+}
+
+.btn-dislike{
+    background-color: #FFE7EF;
+}
